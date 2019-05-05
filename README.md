@@ -1,4 +1,4 @@
 # nothing-app
 just nothing, go away with human problematic
 
-<img src="docs/screenshot.png" width="776">
+<img src="screenshot.png" width="776">
