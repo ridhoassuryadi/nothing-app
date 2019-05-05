@@ -3,6 +3,7 @@
 import * as Block from "bs-platform/lib/es6/block.js";
 import * as Curry from "bs-platform/lib/es6/curry.js";
 import * as React from "react";
+import * as Js_math from "bs-platform/lib/es6/js_math.js";
 import * as Constants from "./common/Constants.bs.js";
 import * as Caml_array from "bs-platform/lib/es6/caml_array.js";
 import * as Caml_option from "bs-platform/lib/es6/caml_option.js";
@@ -70,14 +71,14 @@ var dataType = /* array */[
 ];
 
 function make(_children) {
-  var match = React.useReducer((function (state, action) {
+  var match = React.useReducer((function (param, action) {
           return action[0];
         }), /* Light */1);
   var dispatch = match[1];
   var state = match[0];
   React.useEffect((function () {
-          console.log("clear");
-          Curry._1(dispatch, /* ChangeTheme */[Caml_array.caml_array_get(dataType, 1)]);
+          var numRandom = Js_math.floor(Math.random() * 2);
+          Curry._1(dispatch, /* ChangeTheme */[Caml_array.caml_array_get(dataType, numRandom)]);
           return undefined;
         }));
   return ReasonReact.element(undefined, undefined, View$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(createContainerStyle(state)), undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined)(/* array */[ReasonReact.element(undefined, undefined, Text$BsReactNative.make(undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, Caml_option.some(createTextStyle(state)), undefined, undefined, undefined, undefined, undefined, undefined, undefined, /* array */["Nothing"]))]));

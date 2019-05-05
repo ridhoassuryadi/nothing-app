@@ -1,9 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Converted from https://github.com/facebook/react-native/blob/d752446b23e0a12171ca0c01d20f5be625f40455/template/App.js
- */
+
 [@bs.config {jsx: 3}]
 open BsReactNative;
 
@@ -58,7 +53,7 @@ let dataType: array(colorType) = [|Light, Dark|];
 [@react.component]
 let make = (_children) => {
   let (state, dispatch) = React.useReducer(
-    (state, action) =>
+    (_, action) =>
       switch (action) {
       | ChangeTheme(themeType)  => themeType
       },
@@ -66,8 +61,8 @@ let make = (_children) => {
   );
 
   React.useEffect(() => {
-    Js.log("clear")
-    dispatch(ChangeTheme(dataType[1]))
+    let numRandom = Js.Math.floor(Js.Math.random() *. 2.)
+    dispatch(ChangeTheme(dataType[numRandom]))
     None;
   });
 
