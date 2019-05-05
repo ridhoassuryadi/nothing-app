@@ -1,6 +1,6 @@
 # ninja log v5
-0	31	1555393323	src/App.mlast	6eb27c8510aa7826
-31	37	1555393323	src/App.mlast.d	1b26c93e16634d69
-0	23	1555393323	src/App.cmj	53226fb4e00f4133
-0	23	1555393323	/Users/moox/Sync/Development/bs-react-native/react-native-template-reason/src/App.bs.js	53226fb4e00f4133
-0	23	1555393323	src/App.cmi	53226fb4e00f4133
+0	37	1557036559	src/App.mlast	6c8b231e4f36fd45
+37	42	1557036559	src/App.mlast.d	ff411681677b719f
+0	24	1557036559	src/App.cmj	553fe34c9629251c
+0	24	1557036559	/Users/ridho/Documents/Code/jobs/community/nothing-app/src/App.bs.js	553fe34c9629251c
+0	24	1557036559	src/App.cmi	553fe34c9629251c

@@ -1,16 +1,16 @@
 bs_package_flags = -bs-package-name my-reason-react-native-app
-src_root_dir = /Users/moox/Sync/Development/bs-react-native/react-native-template-reason
-bsc = /Users/moox/Sync/Development/bs-react-native/node_modules/bs-platform/lib/bsc.exe
-bsdep = /Users/moox/Sync/Development/bs-react-native/node_modules/bs-platform/lib/bsb_helper.exe
+src_root_dir = /Users/ridho/Documents/Code/jobs/community/nothing-app
+bsc = /Users/ridho/Documents/Code/jobs/community/nothing-app/node_modules/bs-platform/lib/bsc.exe
+bsdep = /Users/ridho/Documents/Code/jobs/community/nothing-app/node_modules/bs-platform/lib/bsb_helper.exe
 warnings = -w -30-40+6+7+27+32..39+44+45+101
-bsc_flags = -bs-suffix -nostdlib -I '/Users/moox/Sync/Development/bs-react-native/node_modules/bs-platform/lib/ocaml' -color always
+bsc_flags = -bs-suffix -nostdlib -I '/Users/ridho/Documents/Code/jobs/community/nothing-app/node_modules/bs-platform/lib/ocaml' -color always
 ppx_flags = 
-bs_package_includes = -I /Users/moox/Sync/Development/bs-react-native/node_modules/bs-react-native/lib/ocaml -I /Users/moox/Sync/Development/bs-react-native/node_modules/bs-react-native/node_modules/reason-react/lib/ocaml
+bs_package_includes = -I /Users/ridho/Documents/Code/jobs/community/nothing-app/node_modules/bs-react-native/lib/ocaml -I /Users/ridho/Documents/Code/jobs/community/nothing-app/node_modules/reason-react/lib/ocaml
 bs_package_dev_includes = 
 namespace = 
 bsb_dir_group = 0
-refmt = /Users/moox/Sync/Development/bs-react-native/node_modules/bs-platform/lib/refmt.exe
-reason_react_jsx = -ppx '/Users/moox/Sync/Development/bs-react-native/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
+refmt = /Users/ridho/Documents/Code/jobs/community/nothing-app/node_modules/bs-platform/lib/refmt.exe
+reason_react_jsx = -ppx '/Users/ridho/Documents/Code/jobs/community/nothing-app/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
 refmt_flags = --print binary
 bsc_lib_includes = -I src
 rule build_ast_and_module_sets_from_re
